@@ -5,8 +5,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import * as firebase from "firebase";
 
-import LandingScreen from "./components/Landing";
-import RegisterScreen from "./components/Register";
+import LandingScreen from "./components/auth/Landing";
+import RegisterScreen from "./components/auth/Register";
 
 const firebaseConfig = {
   apiKey: "AIzaSyD7Pa5sf9xdiedHB757v6B3lp37UgktDuU",
